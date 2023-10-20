@@ -22,10 +22,10 @@ st.title("Language-Translator")
 
 option = st.selectbox(
     'Which language would you choose to type',
-    ('English', 'Arabic', 'Hindi', 'German', 'Spanish', 'Korean'))
+    ('English', 'Spanish', 'Japanese', 'Korean'))
 
 option1 = st.selectbox('Which language would you like to translate to',
-                       ('English', 'Arabic', 'Hindi', 'German', 'Spanish', 'Korean'))
+                       ('English', 'Spanish', 'Japanese', 'Korean'))
 
 
 sent = "Enter the text in "+option+" language in the text-area provided below"
